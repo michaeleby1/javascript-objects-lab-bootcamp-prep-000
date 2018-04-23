@@ -8,6 +8,3 @@ function updateObjectWithKeyAndValue(recipes, dish, ingredients) {
 function updateObjectWithKeyAndValue(recipes, dish, ingredients) {
   Object.assign({Pasta: Sauce}, {dish: ingredients})
 };
-
-  1) Objects updateObjectWithKeyAndValue(object, key, value) it does not modify the original object,
-   but rather returns a clone with the new data:
