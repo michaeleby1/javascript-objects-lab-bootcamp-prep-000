@@ -25,5 +25,5 @@ function destructivelyDeleteFromObjectByKey(recipes, dish) {
 };
 
 function destructivelyDeleteFromObjectByKey(recipes, dish) {
-  
+
 }
