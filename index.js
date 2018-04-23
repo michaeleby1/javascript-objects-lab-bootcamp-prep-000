@@ -24,3 +24,8 @@ function destructivelyDeleteFromObjectByKey(recipes, dish) {
   var recipes2 = Object.assign( {}, {recipes} )
   return recipes2
 };
+
+function functionDeleteFromObjectByKey(recipes, dish) {
+  recipes[dish] = ingredient
+  return recipes
+}
