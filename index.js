@@ -6,6 +6,5 @@ function updateObjectWithKeyAndValue(recipes, dish, ingredients) {
 };
 
 function updateObjectWithKeyAndValue(recipes, dish, ingredients) {
-  Object.assign({'Pasta': 'Sauce'}, {'dish': 'ingredients'})
-  return recipes 
+  return Object.assign({'Pasta': 'Sauce'}, {'dish': 'ingredients'})
 };
