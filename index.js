@@ -15,8 +15,7 @@ function destructivelyUpdateObjectWithKeyAndValue(recipes, dish, ingredients) {
 }
 
 function deleteFromObjectByKey(recipes, dish) {
+  var recipes2 = Object.assign( {}, {recipes} )
   delete recipes.dish
+  return recipes
 }
-
-  1) Objects deleteFromObjectByKey(object, key) deletes `key` from a clone of object 
-  and returns the new object (it is non-destructive):
