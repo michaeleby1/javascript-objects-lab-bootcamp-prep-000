@@ -13,3 +13,10 @@ function destructivelyUpdateObjectWithKeyAndValue(recipes, dish, ingredients) {
   recipes[dish] = ingredients
   return recipes
 }
+
+function deleteFromObjectByKey(recipes, dish) {
+  delete recipes.dish
+}
+
+  1) Objects deleteFromObjectByKey(object, key) deletes `key` from a clone of object 
+  and returns the new object (it is non-destructive):
